@@ -3,7 +3,7 @@ body{
 }
 
 h1 {
-    color: blue;
+    color: #3a241d;
     text-align: center;
 }
 
@@ -25,4 +25,81 @@ h1 {
 	position: absolute;
 	height: 100%;
 	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: #d1e1df;
+	border-radius: 3rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 50%;
+	height: 5%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 50%;
+	height: 1%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+	opacity: 0.7;
+}
+
+.dirt {
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.jar-glossy-long {
+    left: 5%;
+    width: 3%;
+    background: rgb(181, 195, 200);
+    height: 13%;
+    position: absolute;
+    bottom: 20%;
+    border-radius: 1rem;
+}
+.jar-glossy-short {
+    left: 5%;
+    width: 3%;
+    background: rgb(181, 195, 200);
+    height: 5%;
+    position: absolute;
+    bottom: 36%;
+    border-radius: 1rem;
 }
